@@ -1,0 +1,87 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Rosario:ital,wght@1,600&family=Rouge+Script&display=swap');
+
+header{
+  font-family: rouge script;
+  font-size: 20px;
+  text-align: center;
+}
+h1{
+  font-family: rouge script;
+  font-size: 50px;
+  text-align: left;
+}
+li{
+  font-family: rosario;
+  font-size: 16px;
+}
+ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/*layout*/
+body{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+header{
+  background-color: #D6A7FA;
+  margin-bottom: 1em;
+}
+
+.card{
+  background-color: #A9FDFD;
+  width: 400px;
+  border-radius: 16px;
+  padding: 1em;
+  margin-bottom: 1em; 
+}
+#gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+h1hover
+  text-decoration:underline;
+}
+/* Smartphones (portrait and landscape) */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape)*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* Desktops and laptops */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
